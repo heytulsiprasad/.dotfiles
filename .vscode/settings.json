@@ -1,0 +1,24 @@
+{
+  "prettier.useTabs": true,
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": true,
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Just Black",
+  "debug.javascript.codelens.npmScripts": "never",
+  "editor.formatOnSave": true,
+  "highlight.decorations": {
+    "rangeBehavior": 3
+  },
+  "highlight.regexFlags": "gi",
+  "highlight.maxMatches": 250,
+  "highlight.regexes": {
+    "(// TODO)(:)": [{
+      "backgroundColor": "#ff7dc0",
+      "rangeBehavior": 1
+    }],
+    "(// FEATURE)(:)": [{
+      "backgroundColor": "#7df6ff",
+      "rangeBehavior": 1
+    }]
+  }
+}
